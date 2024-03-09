@@ -5,13 +5,13 @@
         "plugin:prettier/recommended",
         "plugin:react/recommended"
     ],
-    "prettier/prettier": [
+    "rules": {
+        "prettier/prettier": [
         "error",
         {
             "endOfLine": "auto"
         }
-    ],
-    "rules": {
+        ],
         "no-console": "off",
         "react/prop-types": "off"
     }
