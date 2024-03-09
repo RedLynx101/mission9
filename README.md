@@ -1,46 +1,19 @@
-# Getting Started with Create React App
+## College Basketball Teams - Mission 9 Project
+This React-based web application provides a dynamic and interactive platform to explore college basketball teams across the NCAA. With a focus on March Madness, the application showcases comprehensive information about each team, including school name, mascot, and location. What sets this project apart is not just its sleek, user-friendly interface, but also its underlying codebase, which adheres to the highest standards of code quality and maintainability.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features:
+    Dynamic Team Cards: Browse through detailed cards for each NCAA basketball team, featuring school mascots, names, and geographical information.
 
-## Available Scripts
+    Intuitive Design: A user-centric design ensures that all information is accessible and engaging, making the exploration of college basketball teams both informative and enjoyable.
+    
+    Data-Driven Insights: Leveraging a JSON-based dataset, the application dynamically renders team information, providing a robust and scalable solution to data management in web development.
+    
+## Why It's Impressive:
+    Cutting-Edge Technologies: Built with the latest React features, this website represents the forefront of modern web development practices.
 
-In the project directory, you can run:
+    Code Quality Assurance: Utilizing ESLint and Prettier, the project ensures that all code follows industry-standard guidelines and styles, leading to a more readable, efficient, and error-free codebase.
 
-### `npm start`
+    Responsive and Accessible: Designed to be fully responsive and accessible, this application delivers a seamless experience across all devices and accessibility needs, demonstrating a commitment to inclusivity in web development.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project not only serves as a testament to my skills in developing complex, data-driven web applications but also reflects my attention to detail and dedication to code quality and user experience. Ideal for employers looking to gauge both technical proficiency and a commitment to modern development practices.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

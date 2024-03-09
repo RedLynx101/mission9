@@ -3,6 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  const name = 'Josh Perez';
+  const element = <h1>Hello, {name}</h1>;
+
   return (
     <div className="App">
       <header className="App-header">
@@ -16,9 +20,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+          {element}
           Learn React
         </a>
       </header>
+      
     </div>
   );
 }
