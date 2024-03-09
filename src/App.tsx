@@ -1,28 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import teamsData from './CollegeBasketballTeams.json';
+import TeamCard from './TeamCard';
 
 function App() {
-    const name = 'Josh Perez';
-    const element = <h1>Hello, {name}</h1>;
-
     return (
         <div className="App">
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
+                <h1>College Basketball Teams</h1>
                 <p>
-                    Edit <code>src/App.tsx</code> and save to reload.
+                    Welcome to the ultimate guide for college basketball
+                    enthusiasts! As March Madness approaches, dive into the rich
+                    tapestry of NCAA college basketball teams. Discover the
+                    heroes of the hardwood from across the nation - from storied
+                    programs with a legacy of success to rising squads looking
+                    to make their mark. Whether you&apos;re a die-hard fan, an
+                    alumni, or just love the game, this site offers an
+                    interactive way to explore teams, learn about their
+                    histories, and get excited for the greatest spectacle in
+                    college basketball.
                 </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    {element}
-                    Learn React
-                </a>
             </header>
+            <div className="teams-container">
+                {teamsData.teams.map((team) => (
+                    <TeamCard key={team.tid} team={team} />
+                ))}
+            </div>
         </div>
     );
 }
